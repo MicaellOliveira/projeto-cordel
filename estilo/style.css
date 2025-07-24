@@ -58,27 +58,22 @@ p {
     margin-bottom: 25px;
 }
 
-section.imagem > p {
-background-color: rgba(0, 0, 0, 0.527);
-margin: 0px 15px 0px -15px;
-display: inline-block;
-border-radius: 10px;
+section.imagem {
+    color: white;
+    box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.374);
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 section#img1 {
-    background-color: gray;
-    color: white;
-    background: url(../imagens/background001.jpg) cover;
-    background: url(../imagens/background001.jpg) center right no-repeat fixed;
-    box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.374);
+    background-image: url(../imagens/background001.jpg); 
 }
 
 section#img2 {
-    background-color: gray;
-    color: white;
-    background: url(../imagens/background002.jpg) cover;
-    background: url(../imagens/background002.jpg) center right no-repeat fixed;
-    box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.374);
+    background-image: url(../imagens/background002.jpg);
 }
 
 footer {
