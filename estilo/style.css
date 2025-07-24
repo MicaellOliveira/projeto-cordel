@@ -68,14 +68,16 @@ border-radius: 10px;
 section#img1 {
     background-color: gray;
     color: white;
-    background: url(../imagens/background001.jpg) center right fixed;
+    background: url(../imagens/background001.jpg) cover;
+    background: url(../imagens/background001.jpg) center right no-repeat fixed;
     box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.474);
 }
 
 section#img2 {
     background-color: gray;
     color: white;
-    background: url(../imagens/background002.jpg) center right fixed;
+    background: url(../imagens/background002.jpg) cover;
+    background: url(../imagens/background002.jpg) center right no-repeat fixed;
     box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.474);
 }
 
