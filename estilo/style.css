@@ -70,7 +70,7 @@ section#img1 {
     color: white;
     background: url(../imagens/background001.jpg) cover;
     background: url(../imagens/background001.jpg) center right no-repeat fixed;
-    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.474);
+    box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.374);
 }
 
 section#img2 {
@@ -78,7 +78,7 @@ section#img2 {
     color: white;
     background: url(../imagens/background002.jpg) cover;
     background: url(../imagens/background002.jpg) center right no-repeat fixed;
-    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.474);
+    box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.374);
 }
 
 footer {
