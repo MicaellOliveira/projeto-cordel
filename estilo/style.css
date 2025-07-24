@@ -49,7 +49,7 @@ section {
     padding: 10vh 0px 10vh 30px;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 2em;
+    font-size: 1.5em;
 
 }
 
@@ -60,19 +60,23 @@ p {
 
 section.imagem > p {
 background-color: rgba(0, 0, 0, 0.527);
+margin: 0px 15px 0px -15px;
 display: inline-block;
+border-radius: 10px;
 }
 
 section#img1 {
     background-color: gray;
     color: white;
     background: url(../imagens/background001.jpg) center right fixed;
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.474);
 }
 
 section#img2 {
     background-color: gray;
     color: white;
     background: url(../imagens/background002.jpg) center right fixed;
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.474);
 }
 
 footer {
